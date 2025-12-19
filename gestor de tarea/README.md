@@ -1,5 +1,3 @@
-markdown
-
 # Proyecto 2: Gestor de Tareas
 
 Aplicación Full Stack para la gestión de tareas personales, desarrollada con **Node.js + Express** en el backend y **React** en el frontend.  
