@@ -10,7 +10,7 @@ La API está construida con **Node.js + Express** y utiliza **JWT** para autenti
 | POST   | `/auth/register` | Registrar un nuevo usuario         | `{ "nombre": "Mailyn", "email": "mailyn@ejemplo.com", "password": "123456" }` |
 | POST   | `/auth/login`    | Iniciar sesión y obtener token JWT | `{ "email": "mailyn@ejemplo.com", "password": "123456" }` |
 
-**Respuesta exitosa (login):**
+## **Respuesta exitosa (login):**
 ```json
 {
   "token": "jwt_generado",
