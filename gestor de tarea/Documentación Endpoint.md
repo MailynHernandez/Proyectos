@@ -33,7 +33,6 @@ PUT	/tasks/:id	Actualizar tarea existente	{ "estado": "en progreso", "prioridad"
 DELETE	/tasks/:id	Eliminar tarea	—
 
 Ejemplo de respuesta (GET /tasks):
-
 json
 [
   {
