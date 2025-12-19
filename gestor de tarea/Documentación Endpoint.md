@@ -25,7 +25,7 @@ La API está construida con **Node.js + Express** y utiliza **JWT** para autenti
 
 Endpoints de Tareas
 Todos los endpoints requieren token JWT en el header: Authorization: Bearer <token>
-Método / Endpoint	/ Descripción	/ Body (JSON)
+Método	Endpoint	Descripción	Body (JSON)
 GET	/tasks	Listar todas las tareas del usuario	—
 POST	/tasks	Crear nueva tarea	{ "titulo": "Revisar CV", "descripcion": "Actualizar LinkedIn", "estado": "pendiente", "prioridad": "alta" }
 GET	/tasks/:id	Obtener tarea por ID	—
