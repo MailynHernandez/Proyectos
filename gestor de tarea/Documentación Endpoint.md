@@ -21,7 +21,9 @@ La API está construida con **Node.js + Express** y utiliza **JWT** para autenti
   }
 }
 
-# Endpoints de Tareas
+---
+
+Endpoints de Tareas
 Todos los endpoints requieren token JWT en el header: Authorization: Bearer <token>
 Método / Endpoint	/ Descripción	/ Body (JSON)
 GET	/tasks	Listar todas las tareas del usuario	—
@@ -52,12 +54,12 @@ json
   }
 ]
 
-# Notas técnicas
+Notas técnicas
 Autenticación: JWT en headers (Authorization).
 Estados válidos: pendiente, en progreso, completada.
 Prioridades válidas: baja, media, alta.
 
-# Respuestas de error:
+Respuestas de error:
 401 Unauthorized → Token inválido o ausente.
 404 Not Found → Tarea no encontrada.
 400 Bad Request → Datos inválidos.
